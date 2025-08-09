@@ -1,0 +1,73 @@
+html,body {
+    background-color: black;
+    height: 100dvh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container-box {
+    height: 600px;
+    width: 400px;
+    background-color: rgb(38, 38, 190);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+
+
+}
+
+.cloud-logo {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.title-H1 {
+    font-family: 'Arial';
+    font-size: 50px;
+
+
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+
+}
+
+
+.cloud-logo img {
+    width: 300px;
+    height: 150px;
+}
+
+.weather-btn {
+    height: 70px;
+    width: 200px;
+    background-color: aqua;
+    border: 3px black solid;
+    box-shadow: 5px 5px 6px 1px black;
+    transition: all ease-in-out 0.3s;
+
+}
+
+.weather-btn:active {
+    box-shadow: none;
+    transform: translateY(10px);
+}
+
