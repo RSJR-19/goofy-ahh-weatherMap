@@ -13,10 +13,21 @@
                 <img src="cloud.png" alt="cloud">
   
             </div>
-            <h1 class="title-H1">WEATHER</h1>
+            <h1 class="title-H1">WEATHƎЯ</h1>
             <div class="btn-container">
-            <button class="weather-btn"> Weather in my location</button>
-            <button class="weather-btn">Weather in other location</button>
+            <button class="weather-btn" onclick="myLocation('normal')"> Weather in my location</button>
+            <button class="weather-btn" onclick="otherLocation()">Weather in other location</button>
+            </div>
+            <div id="searchingWrapper">
+                <div id="myLocationScreen">
+                    <h2 id="textH1">Searching...</h2>
+
+                </div>
+                <div id="otherLocationScreen">
+                    <h2>Input Location :</h2>
+                    <input type="text" placeholder="Type Location here..." id="locationInput" autocomplete="false" autocomplete="off">
+
+                </div>
             </div>
 
 
