@@ -35,7 +35,7 @@ function myLocation(state,place){
             }
             else if(state === "other"){
             textH1.style.textAlign = "center";
-            textH1.innerHTML = `Punta ka sa ${place},<br> check mo.`;
+            textH1.innerHTML = `Punta ka sa<br> ${place},<br> check mo.`;
             }
             setTimeout(()=> {
                 myLocationScreen.classList.remove("active");
